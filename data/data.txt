@@ -1,0 +1,5 @@
+In this folder, you can find information about the data used in this master's thesis. Three different datasets are used in this research:
+
+  -> CIFAR-10
+  -> Tiny Image Dataset
+  -> Domain Net Dataset
