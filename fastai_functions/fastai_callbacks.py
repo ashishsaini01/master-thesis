@@ -1,4 +1,5 @@
 from fastai.callback.core import Callback
+import matplotlib.pyplot as plt
 import math
 
 class CustomCosineAnnealing(Callback):
