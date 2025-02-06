@@ -1,3 +1,7 @@
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg) 
+![Python version](https://img.shields.io/badge/Python-3.9-blue) 
+![Repo Status](https://img.shields.io/badge/status-active-brightgreen)
+
 # Master's Thesis
 
 ## Enhancing uncertainty estimation and outlier detection through confidence calibration for out-of-distribution data.  
