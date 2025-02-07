@@ -3,3 +3,11 @@ In this folder, you can find information about the data used in this master's th
   -> CIFAR-10
   -> Tiny Image Dataset
   -> Domain Net Dataset
+
+## Outlier Dataset
+
+[**80 Million Tiny Images is available here (mirror link).**](http://www.archive.org/download/80-million-tiny-images-2-of-2/tiny_images.bin)
+
+If you do not want to use 80 Million Tiny Images, we prepared a cleaned ("debiased") subset with 300K images. We removed images that belong to CIFAR classes from it, images that belong to Places or LSUN classes, and images with divisive metadata.
+
+[**300K Random Images is available here.**](https://people.eecs.berkeley.edu/~hendrycks/300K_random_images.npy)
