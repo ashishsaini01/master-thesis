@@ -108,7 +108,7 @@ sched = {'lr': SchedCos(lr_max, lr_min)}
 lr_scheduler = ParamScheduler(sched)
 
 # Create Neptune run
-run = neptune.init_run(project='project_name', model. = 'debug', name='cifar_10_allconvnetdeconf_arch_final',
+run = neptune.init_run(project='project_name', model = 'debug', name='cifar_10_allconvnetdeconf_arch_final',
                          api_token = "pass your own api token")
 
 # Create Neptune callback
