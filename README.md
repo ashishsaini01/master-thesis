@@ -1,4 +1,4 @@
-![tests](https://github.com/ashishsaini01/master-thesis/actions/workflows/setup_pytorch_and_fastai.yaml/badge.svg) 
+![tests](https://github.com/ashishsaini01/master-thesis/actions/workflows/setup_pytorch_and_fastai.yaml/badge.svg?branch=main) 
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg) 
 ![Python version](https://img.shields.io/badge/Python-3.9-blue) 
 ![Repo Status](https://img.shields.io/badge/status-active-brightgreen)
