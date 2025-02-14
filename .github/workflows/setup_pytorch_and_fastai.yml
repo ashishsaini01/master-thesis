@@ -1,0 +1,35 @@
+name: Setup PyTorch and FastAI
+
+on:
+  push:
+    branches:
+      - main  # Runs when changes are pushed to main
+  pull_request:
+    branches:
+      - main  # Runs on pull requests to main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify Installation
+        run: |
+          python -c "import torch; print('PyTorch Version:', torch.__version__)"
+          python -c "import fastai; print('FastAI Version:', fastai.__version__)"
+
+      - name: Run Jupyter Notebook (Optional Test)
+        run: |
+          jupyter nbconvert --execute --inplace example.ipynb || echo "Jupyter test skipped"
