@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://github.com/ashishsaini01/master-thesis/actions/workflows/setup_pytorch_and_fastai.yaml/badge.svg)
+![tests](https://github.com/ashishsaini01/master-thesis/actions/workflows/setup_pytorch_and_fastai.yml/badge.svg)
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg) 
 ![Python version](https://img.shields.io/badge/Python-3.9-blue) 
 ![Repo Status](https://img.shields.io/badge/status-active-brightgreen)
@@ -15,6 +15,15 @@ The primary goal is to enhance confidence calibration methods in machine learnin
 
 
 ## Getting Started
+
+To reproduce the experiments and analyses conducted in this thesis, follow these steps:
+
+1. Clone this repository: <br>
+    `git clone https://github.com/ashishsaini01/master-thesis.git`
+
+
+2. Run to install the required dependencies: <br>
+    `pip install -e .`
 
 ## Results
 
