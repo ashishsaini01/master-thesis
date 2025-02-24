@@ -11,7 +11,7 @@ This repository explores the effectiveness of estimating uncertainty and recogni
 
 ## Goal of the thesis
 
-The primary goal is to enhance confidence calibration methods in machine learning models and improve anomaly detection by using out-of-distribution data with outlier exposure and decomposed confidence.
+The primary goal is to enhance confidence calibration methods in machine learning models and improve anomaly detection using out-of-distribution data with outlier exposure and decomposed confidence.
 
 
 ## Getting Started
@@ -27,6 +27,8 @@ To reproduce the experiments and analyses conducted in this thesis, follow these
 
 ## Results
 
+
+
 ## References
 
 [1] Hendrycks,Dan and Kevin Gimpel: A baselinefordetectingmisclassifiedand
@@ -40,6 +42,7 @@ detectionwithoutlierexposure. arXivpreprintarXiv:1812.04606,2018.
 Detectingout-of-distributionimagewithoutlearningfromout-of-distributiondata. In
 ProceedingsoftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,
 pages 10951–10960,2020.
+
 
 ## Contact
 
